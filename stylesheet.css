@@ -1,0 +1,115 @@
+h1 {
+    padding: 20px;
+    background-color:  #004225;
+    text-align: center;
+    color:#FFFFFF;
+    font-size: 80px;
+    border: 3px solid #000000;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    
+  }
+
+  #h1pic{ 
+    
+    position: fixed;
+    right: auto; 
+    bottom: auto; 
+    width: auto; 
+    height: auto;
+    
+  }
+
+  #forums h2, #blog h2, #classifieds h2 {
+    display: inline-block; 
+  }
+  
+  #forums, #blog, #classifieds {
+    width: 100%; 
+    padding: 20px;
+    border: 1px solid #ddd; 
+    box-sizing: border-box;
+    margin-bottom: 30px;
+  }
+  
+  #forums a, #blog a, #classifieds a {
+    display: block;
+    margin-top: 10px; 
+  }
+  
+  
+  .adjustable-box-container {
+    text-align: left;
+    margin-bottom: 40px
+}
+
+.forumlink {
+    display: inline-block; 
+    margin-right: 450px;
+}
+
+.bloglink {
+  display: inline-block; 
+  margin-right: 450px;
+}
+
+.classiflink {
+  display: inline-block; 
+  margin-right: 450px;
+}
+
+nav a {
+    font-family: 'Arial', sans-serif;
+    font-weight: bold; 
+    font-size: 35px;
+    color: #333;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #007bff; 
+}
+
+#blog h2 {
+
+  font-size: 50px;
+  
+}
+
+#forums h2 {
+
+  font-size: 50px;
+  
+}
+
+#classifieds h2 {
+
+  font-size: 50px;
+  
+}
+
+#blog p,
+#forums p,
+#classifieds p {
+    font-family: "Lato",Sans-Serif; 
+    font-size: 35px; 
+    color: #000000; 
+    line-height: 0; 
+}
+
+footer p {
+  font-size: 30px;
+  color: #818589;
+}
+
+.login-form {
+  float: right; 
+  margin-right: 20px; 
+  margin-top: -126px;
+  font-size: 25px;
+}
+
+.login-form button {
+  font-size: 22px;
+}

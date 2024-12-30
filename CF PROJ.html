@@ -1,0 +1,73 @@
+<html>
+
+<head>
+    <title>H&H Plays</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body>
+
+    <header>
+        <h1> H&H Plays</h1>
+        <br>
+        <br>
+        <nav>
+            <div class="adjustable-box-container">
+                <div class="forumlink">
+                    <a href="#forums">Forums</a>
+                </div>
+                <div class="bloglink">
+                    <a href="#blog">Blog</a>
+                </div>
+                <div class="classiflink">
+                    <a href="#classifieds">Classifieds</a>
+                </div>
+            </div>
+
+            <div id="loginSection" class="login-form">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+
+                <button type="button" onclick="login()">Login</button>
+            </div>
+
+            <div id="welcomeSection" style="display: none;">
+                <p id="welcomeMessage"></p>
+                <button id="logoutBtn" onclick="logout()">Logout</button>
+            </div>
+        </nav>
+    </header>
+</header>
+
+<section id="forums">
+    <h2>Forums</h2>
+    <p>Join our vibrant community of PC gaming enthusiasts to discuss your favorite games, hardware, and software.</p>
+    <img class="forums" src="forumspic.png"></img>
+</section>
+
+<section id="blog">
+    <h2>Blog</h2>
+    <p>Stay updated on the latest developments in technology and gaming with our expert-written articles.</p>
+    <img class="blog1" src="blogspic1.png"></img>
+    <img class="blog2" src="blogspic (1).png"></img>
+</section>
+
+<section id="classifieds">
+    <h2>Classifieds</h2>
+    <p>Buy and sell PCs and other accessories on our user-friendly platform.</p>
+    <img class="classif" src="classsif1.png"></img>
+    <img class="classif2" src="classif2.png"></img>
+</section>
+
+<footer>
+    <p>&copy; 2024 Hasan & Hashir Enterprises. All rights reserved.</p>
+</footer>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
